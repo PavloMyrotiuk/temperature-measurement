@@ -1,4 +1,4 @@
-package com.myrotiuk.smartfrogassignment.dto;
+package com.myrotiuk.temperaturemeasurement.dto;
 
 public class MeasurementsResponse {
     private String sensorUuid;

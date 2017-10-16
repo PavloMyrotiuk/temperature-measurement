@@ -1,8 +1,8 @@
-package com.myrotiuk.smartfrogassignment.web;
+package com.myrotiuk.temperaturemeasurement.web;
 
 import com.google.gson.Gson;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
-import com.myrotiuk.smartfrogassignment.service.MeasurementService;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.service.MeasurementService;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.springframework.beans.factory.annotation.Autowired;

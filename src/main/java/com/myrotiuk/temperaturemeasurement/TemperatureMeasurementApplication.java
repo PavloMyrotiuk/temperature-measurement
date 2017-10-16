@@ -1,12 +1,12 @@
-package com.myrotiuk.smartfrogassignment;
+package com.myrotiuk.temperaturemeasurement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmartfrogAssignmentApplication {
+public class TemperatureMeasurementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartfrogAssignmentApplication.class, args);
+		SpringApplication.run(TemperatureMeasurementApplication.class, args);
 	}
 }

@@ -1,9 +1,9 @@
-package com.myrotiuk.smartfrogassignment.web;
+package com.myrotiuk.temperaturemeasurement.web;
 
 import com.google.common.collect.ImmutableList;
-import com.myrotiuk.smartfrogassignment.model.Event;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
-import com.myrotiuk.smartfrogassignment.service.EventsService;
+import com.myrotiuk.temperaturemeasurement.model.Event;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.service.EventsService;
 import org.hamcrest.collection.IsCollectionWithSize;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

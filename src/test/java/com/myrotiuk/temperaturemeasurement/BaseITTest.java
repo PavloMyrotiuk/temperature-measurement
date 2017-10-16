@@ -1,4 +1,4 @@
-package com.myrotiuk.smartfrogassignment;
+package com.myrotiuk.temperaturemeasurement;
 
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 @RunWith(SpringJUnit4ClassRunner.class)
 @Transactional
 @WebAppConfiguration
-@ContextConfiguration(classes = {SmartfrogAssignmentApplication.class, ITMocks.class})
+@ContextConfiguration(classes = {TemperatureMeasurementApplication.class, ITMocks.class})
 @TestPropertySource(locations = "classpath:application.properties")
 public abstract class BaseITTest {
 

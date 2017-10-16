@@ -1,6 +1,6 @@
-package com.myrotiuk.smartfrogassignment.dto;
+package com.myrotiuk.temperaturemeasurement.dto;
 
-import com.myrotiuk.smartfrogassignment.model.Event;
+import com.myrotiuk.temperaturemeasurement.model.Event;
 
 import java.util.Date;
 

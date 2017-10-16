@@ -1,8 +1,8 @@
-package com.myrotiuk.smartfrogassignment.service;
+package com.myrotiuk.temperaturemeasurement.service;
 
-import com.myrotiuk.smartfrogassignment.dao.EventsRepository;
-import com.myrotiuk.smartfrogassignment.model.Event;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.dao.EventsRepository;
+import com.myrotiuk.temperaturemeasurement.model.Event;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

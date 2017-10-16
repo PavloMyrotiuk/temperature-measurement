@@ -1,4 +1,4 @@
-package com.myrotiuk.smartfrogassignment.dto;
+package com.myrotiuk.temperaturemeasurement.dto;
 
 import java.util.Collection;
 

@@ -1,7 +1,7 @@
-package com.myrotiuk.smartfrogassignment.service;
+package com.myrotiuk.temperaturemeasurement.service;
 
-import com.myrotiuk.smartfrogassignment.dao.MeasurementDao;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.dao.MeasurementDao;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

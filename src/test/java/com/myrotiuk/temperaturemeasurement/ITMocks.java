@@ -1,7 +1,7 @@
-package com.myrotiuk.smartfrogassignment;
+package com.myrotiuk.temperaturemeasurement;
 
-import com.myrotiuk.smartfrogassignment.service.EventsService;
-import com.myrotiuk.smartfrogassignment.service.MeasurementService;
+import com.myrotiuk.temperaturemeasurement.service.EventsService;
+import com.myrotiuk.temperaturemeasurement.service.MeasurementService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

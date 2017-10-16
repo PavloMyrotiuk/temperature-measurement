@@ -1,6 +1,6 @@
-package com.myrotiuk.smartfrogassignment.dao;
+package com.myrotiuk.temperaturemeasurement.dao;
 
-import com.myrotiuk.smartfrogassignment.model.Event;
+import com.myrotiuk.temperaturemeasurement.model.Event;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

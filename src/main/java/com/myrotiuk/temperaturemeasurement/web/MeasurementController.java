@@ -1,9 +1,9 @@
-package com.myrotiuk.smartfrogassignment.web;
+package com.myrotiuk.temperaturemeasurement.web;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.myrotiuk.smartfrogassignment.dto.MeasurementsResponse;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
-import com.myrotiuk.smartfrogassignment.service.MeasurementService;
+import com.myrotiuk.temperaturemeasurement.dto.MeasurementsResponse;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.service.MeasurementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.myrotiuk.smartfrogassignment.model;
+package com.myrotiuk.temperaturemeasurement.model;
 
 import javax.persistence.*;
 

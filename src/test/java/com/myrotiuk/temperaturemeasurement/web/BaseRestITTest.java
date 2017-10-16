@@ -1,6 +1,6 @@
-package com.myrotiuk.smartfrogassignment.web;
+package com.myrotiuk.temperaturemeasurement.web;
 
-import com.myrotiuk.smartfrogassignment.BaseITTest;
+import com.myrotiuk.temperaturemeasurement.BaseITTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;

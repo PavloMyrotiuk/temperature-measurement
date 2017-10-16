@@ -1,7 +1,7 @@
-package com.myrotiuk.smartfrogassignment.dao;
+package com.myrotiuk.temperaturemeasurement.dao;
 
-import com.myrotiuk.smartfrogassignment.BaseITTest;
-import com.myrotiuk.smartfrogassignment.model.Measurement;
+import com.myrotiuk.temperaturemeasurement.BaseITTest;
+import com.myrotiuk.temperaturemeasurement.model.Measurement;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

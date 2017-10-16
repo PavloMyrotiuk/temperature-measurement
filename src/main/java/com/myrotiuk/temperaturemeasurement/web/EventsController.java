@@ -1,10 +1,10 @@
-package com.myrotiuk.smartfrogassignment.web;
+package com.myrotiuk.temperaturemeasurement.web;
 
 
-import com.myrotiuk.smartfrogassignment.dto.EventDto;
-import com.myrotiuk.smartfrogassignment.dto.SensorEventsResponse;
-import com.myrotiuk.smartfrogassignment.model.Event;
-import com.myrotiuk.smartfrogassignment.service.EventsService;
+import com.myrotiuk.temperaturemeasurement.dto.EventDto;
+import com.myrotiuk.temperaturemeasurement.dto.SensorEventsResponse;
+import com.myrotiuk.temperaturemeasurement.model.Event;
+import com.myrotiuk.temperaturemeasurement.service.EventsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
