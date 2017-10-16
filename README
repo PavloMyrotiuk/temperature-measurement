@@ -1,0 +1,2 @@
+to build project: ./gradlew build
+to start project: java -jar build/libs/smartfrog-assignment-0.0.1-SNAPSHOT.jar

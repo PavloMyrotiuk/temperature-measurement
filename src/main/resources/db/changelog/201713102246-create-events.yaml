@@ -1,0 +1,28 @@
+---
+  databaseChangeLog:
+    - changeSet:
+        id: "create-events"
+        author: pmyrotiuk
+        changes:
+          - createTable:
+              tableName: events
+              columns:
+                - column:
+                    name: event_id
+                    type: bigint
+                    autoIncrement: true
+                    constraints:
+                      primaryKey: true
+                      nullable: false
+                - column:
+                    name: measurement_id
+                    type: bigint
+                    constraints:
+                      references: measurements(measurement_id)
+                      foreignKeyName: events_measurements_fk
+                      nullable: false
+                - column:
+                    name: type
+                    type: varchar(256)
+                    constraints:
+                      nullable: false

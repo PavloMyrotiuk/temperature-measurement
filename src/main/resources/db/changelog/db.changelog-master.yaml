@@ -1,0 +1,6 @@
+---
+  databaseChangeLog:
+    - include:
+        file: classpath:/db/changelog/201713102245-create-measurements.yaml
+    - include:
+        file: classpath:/db/changelog/201713102246-create-events.yaml

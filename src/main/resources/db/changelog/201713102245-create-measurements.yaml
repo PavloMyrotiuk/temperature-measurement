@@ -1,0 +1,31 @@
+---
+  databaseChangeLog:
+    - changeSet:
+        id: "create-measurements"
+        author: pmyrotiuk
+        changes:
+          - createTable:
+              tableName: measurements
+              columns:
+                - column:
+                    name: measurement_id
+                    type: bigint
+                    autoIncrement: true
+                    constraints:
+                      primaryKey: true
+                      nullable: false
+                - column:
+                    name: sensor_uuid
+                    type: varchar(256)
+                    constraints:
+                      nullable: false
+                - column:
+                    name: at
+                    type: timestamp with time zone
+                    constraints:
+                      nullable: false
+                - column:
+                    name: temperature
+                    type: int
+                    constraints:
+                      nullable: false
